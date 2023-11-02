@@ -1,0 +1,90 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 500px;
+    font-family: 'Press Start 2P';
+    text-align: center;
+    font-weight: 400;
+}
+
+h1,
+.button {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/*########## PAGER ##########*/
+.pager {
+    background-color: #283033;
+    padding-bottom: .5em
+}
+
+.pager h1 {
+    color: #F8F8F8;
+}
+
+.pager h2 {
+    background-color: #9EC4B3;
+    color: #000000;
+}
+
+/*########## PHONE ##########*/
+.phone {
+    background-color: #D9D9D9;
+}
+
+.phone h1 {
+    color: #000000;
+}
+
+.phone h2 {
+    background-color: #444444;
+    color: #F8F8F8
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px
+}
+
+.button {
+    background-color: #F8F8F8;
+    border: none;
+    text-align: center;
+    padding: .5em 1em;
+}
+
+/*########## MISC ##########*/
+#reset {
+    background-color: #BE482A;
+    color: #F8F8F8
+}
+
+#send {
+    background-color: #3D9C7C;
+    color: #0B0B0B
+}
+
+#reset,
+#send {
+    border: 1px solid #0B0B0B;
+    font-size: 25px;
+    padding: .5em 1em;
+    margin: .5em;
+}
+
+.pager h1,
+.phone h1 {
+    padding: .5em;
+}
+
+.pager h2,
+.phone h2 {
+    padding: .5em;
+    margin: 0 0.3em 0.3em
+}
